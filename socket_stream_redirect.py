@@ -6,6 +6,9 @@ import sys
 from socket import *
 port = 9090
 host = 'localhost'
+# 以前一个国外的blog 写了写关于重定向的东西 
+# 自己改改拿来用 挺好的 感觉挺快的 
+# 这是基本的脚本 之后就随便插就好
 
 def initListenerSocket(port=port):
     sock=socket(AF_INET, SOCK_STREAM)
